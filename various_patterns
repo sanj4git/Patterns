@@ -147,3 +147,135 @@ for i in range(n):
 
     print()
 
+
+# Pattern 14
+
+n = 5
+
+for i in range(1, n + 1):
+
+    for j in range(1, i+1):
+        print(chr(64 + j), end = "")
+
+    print()
+
+
+
+# Pattern 15
+
+n = 5
+
+for i in range(n, 0, -1):
+
+    for j in range(1, i + 1):
+
+        print(chr(64 + j), end = "")
+
+    print()
+
+
+# Pattern 16
+
+n = 5
+
+for i in range(n):
+
+    for j in range(i+1):
+        print(chr(65 + i), end = "")
+
+    print()
+
+
+# Pattern 17
+
+n = 4
+
+for i in range(n):
+
+    print((n - i - 1) * '_', end = "")
+
+    for j in range(i+1):
+        print(chr(65 + j), end = "")
+
+    for k in range(i - 1, -1, -1):
+        print(chr(65 + k), end = "")
+
+    print((n - i - 1) * '_', end = "")
+    print()
+
+
+# Pattern 18
+
+n = 5
+
+for i in range(n):
+
+    for j in range((n - i), 6):
+
+        print(chr(64 + j), end = "")
+
+    print()
+
+
+# Pattern 19
+
+n = 5
+
+for i in range(1, 2*n):
+
+    if i > n:
+        print('*' * (2*n - i), end = "")
+        print(' ' * (2 * (i - 4) - 2), end= "")
+        print('*' * (2 * n - i))
+
+    else:
+        print('*' * i, end = "")
+        print(' ' * (2 * (n - i)), end = "")
+        print('*' * i)
+
+# Pattern 20
+
+n = 5
+
+for i in range(1, 2*n):
+
+    if i > n:
+        print('*' * (2*n - i), end = "")
+        print(' ' * (2 * (i - 4) - 2), end= "")
+        print('*' * (2 * n - i))
+
+    else:
+        print('*' * i, end = "")
+        print(' ' * (2 * (n - i)), end = "")
+        print('*' * i)
+
+
+# Pattern 21
+
+n = 10
+
+for i in range(n):
+
+    if i == 0 or i == (n - 1):
+        print('*' * (n))
+
+    else:
+        print('*', end = "")
+        print(' ' * (n - 2), end = "")
+        print('*')
+
+
+
+# Pattern 22
+
+
+
+
+
+
+
+
+
+
+
+
